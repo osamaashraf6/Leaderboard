@@ -67,8 +67,10 @@ h3 {
 
 .contents {
   padding: 20px;
-  height: 293px;
   border: 1px solid;
+  height: 322px;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 .contents > .content {
