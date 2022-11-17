@@ -22,9 +22,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-- `git clone "https://github.com/osamaashraf6/Leaderboard-1.git"`
+- `git clone https://github.com/osamaashraf6/Leaderboard.git`
 - `npm install`
-- `git checkout leaderboard__structure`
+- `git checkout Leaderboard`
 - `npm start`
 
 ### Usage
