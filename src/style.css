@@ -1,3 +1,15 @@
+/* start index styles */
+
+/*
+1.index styles.
+2.universal styles.
+3.common styles.
+4.content styles.
+5.media query styles.
+*/
+
+/* end index styles */
+
 /* start universal styles */
 *,
 *::after,
@@ -11,7 +23,13 @@ body {
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.42857143;
+  color: #e3e3e3;
+  background-color: rgb(4, 37, 48);
   position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* end universal styles */
@@ -43,11 +61,13 @@ section {
 
 .sectionone__container__items {
   width: 800px;
+  background-color: cadetblue;
   padding: 20px;
   border-radius: 5px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 29px;
+  box-shadow: 0 0 11px azure;
 }
 
 .head {
@@ -65,26 +85,51 @@ h3 {
   margin-bottom: 49px;
 }
 
+.head > button {
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 17px;
+  color: rgb(4, 37, 48);
+  cursor: pointer;
+}
+
 .contents {
+  background-color: rgb(4, 37, 48);
   padding: 20px;
-  border: 1px solid;
-  height: 322px;
-  max-height: 300px;
+  border-radius: 5px;
+  height: 293px;
   overflow-y: auto;
+  max-height: 273px;
 }
 
 .contents > .content {
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
   margin-bottom: 15px;
-  border-bottom: 1px solid;
+  color: rgb(4, 37, 48);
 }
 
 .contents > .content > span {
   font-size: 18px;
+  color: rgb(4, 37, 48);
 }
 
 .formcontrol {
   margin-bottom: 15px;
-  height: 25px;
+  height: 43px;
+}
+
+.formcontrol > input {
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  font-size: 15px;
 }
 
 .formcontrol > input[type="submit"] {
@@ -92,3 +137,7 @@ h3 {
 }
 
 /* end content styles */
+
+/* start media query styles */
+
+/* end media query styles */
