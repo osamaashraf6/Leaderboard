@@ -1,15 +1,30 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard
+# Leaderboard.
 
-This is a JavaScript app, using webpack and ES6 features, to send Scores the the Leaderboard API and show in the browser.
+> This is a leaderboard app to displays scores submitted by different players, It is used API to get data and post new score.👌
+
+
+
 
 ## Built With
 
-- HTML
-- CSS
-- JavaScript
-- Webpack
+- [x] HTML
+- [x] Webpack
+- [x] Use semantic HTML tags.
+- [x] Apply best practices in HTML code.
+- [x] CSS👍
+- [x] Use CSS selectors correctly.
+- [x] Use CSS box model.
+- [x] Use Flexbox to place elements in the page.
+- [x] (RWD) responsive web design using media query⤵️
+- [x] Apply JavaScript best practices and language style guides in code.👌
+- [x] Use JavaScript to manipulate DOM elements.
+- [x] Use JavaScript events.💯
+- [x] Use objects to store and access data.
+- [x] Communicate technical concepts to other technical people.
+
+
 
 
 
@@ -20,22 +35,31 @@ This is a JavaScript app, using webpack and ES6 features, to send Scores the the
 
 To get a local copy up and running follow these simple example steps.
 
+### Setup
+
+Clone this repository to your desired folder:
+
+
+```sh
+  cd my-folder
+  git clone https://github.com/osamaashraf6/Leaderboard
+```
+
+
 ### Install
 
-- `git clone https://github.com/osamaashraf6/Leaderboard.git`
-- `npm install`
-- `git checkout Leaderboard`
-- `npm start`
-
+Install this project with:
+```sh
+  cd Leaderboard
+  npm install
+```
 ### Usage
 
-- `npm start` to start the app
-- You can see the Leaderboard layout
+- npm run start
+- You can now see the Leaderboard layout
 
 
-### Live Version
-Not availabe
-
+## Authors
 
 👤 **Author**
 
@@ -43,10 +67,21 @@ Not availabe
 - Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
 - LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
 
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 
 ## 📝 License
