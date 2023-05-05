@@ -25,7 +25,7 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-- This is a leaderboard app to displays scores submitted by different players, It is used API to get data and post new score.👌 
+- I developed a leaderboard using HTML, CSS, JavaScript, and APIs. This project aims to create a simple and intuitive interface that allows users to track their scores and compare their rankings with others.👌 
 
 
 
